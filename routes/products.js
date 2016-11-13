@@ -37,7 +37,8 @@ router.post('/', function(req, res) {
 	var product = new Product({
 		name: req.body.name,
 		photo: req.body.photo,
-		stock: req.body.stock
+		stock: req.body.stock,
+		description: req.body.description
 	});
 
 	product.save(function(error, product) {
