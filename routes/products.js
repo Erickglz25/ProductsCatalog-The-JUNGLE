@@ -25,13 +25,17 @@ router.get('/', function(req, res, next) {
 
 
   });
-
-
-
-
 });
 
-router.post('/', function(req, res) {
+
+router.get('/new',function(req,res){
+	res.render('new',{
+		title: 'New'
+	})
+})
+
+
+router.post('/new', function(req, res) {
 	console.log(req.body);
 
 	var product = new Product({

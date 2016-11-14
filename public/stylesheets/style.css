@@ -1,3 +1,4 @@
+
 #formPad{
 	margin-bottom: 13px;
 }
@@ -9,6 +10,38 @@
 
 }
 
+.contentTitle{
+	width: 70%;
+	margin-left:15%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 15%;
+	text-align: center;
+	color:white;
+	
+	
+}
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+
+.backgConteiner{
+	background-color: blue;
+	background: url("../images/slide3.jpg");
+	/*Para ver el documento con una imagen alternativa cambiar imagen01.jpg x img16.jpg
+	no la puse por que no mantiene la misma calidad que la original*/
+    background-size: 100% auto; 
+	background-repeat: repeat-y;
+	
+	padding: 30px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #4f2e4f;
+}
 	
 
 @media(max-width: 766px){
